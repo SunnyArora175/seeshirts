@@ -39,7 +39,7 @@ function Navbar(){
       {
         subMenu ?
           <>
-          <div className="backdrop" onMouseOver={()=>setSubmenu(null)}/>
+          <div className="Navbar_backdrop" onMouseOver={()=>setSubmenu(null)}/>
           <div className="hovercontainer">
             {
                subMenu.data.map((obj, i)=>

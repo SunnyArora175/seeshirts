@@ -60,7 +60,7 @@
 .searchBar input:focus{
     outline: none;
 }
-.backdrop{
+.Navbar_backdrop{
   position: absolute;
   top:56px;
   bottom: 0px;
