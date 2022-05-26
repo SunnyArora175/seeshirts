@@ -1,0 +1,121 @@
+
+.main_login_container{
+  flex: 1;
+  display: flex;
+}
+
+.block {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Login_searchbar{
+    border-radius: 5px;
+    border: 1px solid #aeaeae;
+    width: 300px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 20px;
+}
+
+
+.Login_searchbar input{
+
+border: none;
+font-size: 15px;
+margin-left: 55px;
+margin-top: 14px;
+}
+
+.Login_searchbar input:focus{
+    outline: none;
+}
+
+.Bclass{
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    width: 302px;
+    color: white;
+    background-color: #42a2a2;
+    letter-spacing: .5px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+hr{
+    width: 150px;
+    display: inline-block;
+
+}
+.hrclass{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.emailcontainerclass{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #aeaeae;
+    width: 298px;
+    padding: 6px;
+    border-radius: 5px;
+    margin-top: 20px;
+
+  }
+.Emailclass{
+    border: none;
+    background-color: white;
+    font-weight: bolder;
+    color: #5c5c5c;
+    font-size: 14px;
+}
+
+
+.GOOGLEcontainerclass{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #aeaeae;
+    width: 140px;
+    padding: 6px;
+    border-radius: 5px;
+
+}
+.GOOGLEclass{
+    border: none;
+    background-color: white;
+    font-weight: bolder;
+    color: #5c5c5c;
+    font-size: 14px;
+}
+
+.svgcontainerclass{
+    margin: 6px
+}
+
+.FACEBOOKcontainerclass{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #aeaeae;
+    width: 140px;
+    padding: 6px;
+    border-radius: 5px;
+    margin-left: 6px;
+}
+
+.FACEBOOKclass{
+    border: none;
+    background-color: white;
+    font-weight: bolder;
+    color: #5c5c5c;
+    font-size: 14px;
+}
+
+
+.GFcontainerclass{
+    display: flex;
+    margin-top: 20px;
+}

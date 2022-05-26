@@ -1,0 +1,19 @@
+.normalnavbar{
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+    font-size: 18px;
+
+}
+.sectionscss{
+    display: flex;
+    justify-content: center;
+}
+
+.activenavbar{
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+    font-size: 18px;
+    border-bottom: 2px solid yellow;
+}

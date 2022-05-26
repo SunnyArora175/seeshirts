@@ -1,0 +1,48 @@
+
+.firstmap{
+
+    display: block;
+}
+
+.heading{
+    color: #f3fa2a;
+    font-size: 15px
+}
+.container{
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+}
+
+.svgscontainer{
+    margin-top: 2px;
+    padding: 0;
+}
+.svgscontainer img{
+    height: 20px;
+    margin-right: 16px;
+    background-color: #fff;
+}
+.inputfooter{
+    border: none;
+    color: #555;
+    border-bottom: 1p solid #f3fa2a;
+    border-bottom: 2px solid #f3fa2a;
+    padding: 7px 25px 7px 25px;
+}
+.buttonfooter{
+    background-color: #f3fa2a;
+    border: none;
+    padding: 8px 25px 8px 25px;
+
+
+}
+
+.mainfootercontainer{
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  font-size: 13px
+
+}

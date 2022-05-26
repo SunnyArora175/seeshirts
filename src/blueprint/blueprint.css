@@ -1,0 +1,6 @@
+.cantainerclass{
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  margin: 10px;
+}
