@@ -1,4 +1,4 @@
-const data=
+export const men=
 {
   banner:[
     {
@@ -15,59 +15,192 @@ const data=
   },
 ],
 
-  'Middle banner':[{
+  'Middle_banner':[{
       route:"",
       src:"https://images.bewakoof.com/uploads/grid/app/desktop-strip-2-1651232973.jpg",
     },
 ],
 
-'small_middle_banner':[
-  {
-      route:"",
-      src:"https://images.bewakoof.com/uploads/grid/app/WhatsApp-Video-2022-01-29-at-14-06-03-1643446784.gif",
-      catagory:"Design Of The Day"
-    },
+  'small_middle_banner':[
     {
-      route:"",
-      src:"https://images.bewakoof.com/uploads/grid/app/tod-thumbnail-best-seller-1637307127.jpg",
-      catagory:"Bestsellers"
-    },
-    {
-      route:"",
-      src:"https://images.bewakoof.com/uploads/grid/app/CUSTOMISE-thumbnail-1644818150.jpg",
-      catagory:"Customization",
-    },
-    {
-      route:"",
-      src:"https://images.bewakoof.com/uploads/grid/app/vote-for-design-1641715844.jpg",
-      catagory:"Vote for Design",
-    },
-    {
-      route:"",
+        route:"",
+        src:"https://images.bewakoof.com/uploads/grid/app/WhatsApp-Video-2022-01-29-at-14-06-03-1643446784.gif",
+        catagory:"Design Of The Day"
+      },
+      {
+        route:"",
+        src:"https://images.bewakoof.com/uploads/grid/app/tod-thumbnail-best-seller-1637307127.jpg",
+        catagory:"Bestsellers"
+      },
+      {
+        route:"",
+        src:"https://images.bewakoof.com/uploads/grid/app/CUSTOMISE-thumbnail-1644818150.jpg",
+        catagory:"Customization",
+      },
+      {
+        route:"",
+        src:"https://images.bewakoof.com/uploads/grid/app/vote-for-design-1641715844.jpg",
+        catagory:"Vote for Design",
+      },
+      {
+        route:"",
 
-      src:"https://images.bewakoof.com/uploads/grid/app/WhatsApp-Video-2022-01-29-at-14-06-03-1643446784.gif",
-      catagory:"Design Of The Day"
-    },
-    {
-      route:"",
+        src:"https://images.bewakoof.com/uploads/grid/app/WhatsApp-Video-2022-01-29-at-14-06-03-1643446784.gif",
+        catagory:"Design Of The Day"
+      },
+      {
+        route:"",
 
-      src:"https://images.bewakoof.com/uploads/grid/app/tod-thumbnail-best-seller-1637307127.jpg",
-      catagory:"Bestsellers"
-    },
-    {
-      route:"",
+        src:"https://images.bewakoof.com/uploads/grid/app/tod-thumbnail-best-seller-1637307127.jpg",
+        catagory:"Bestsellers"
+      },
+      {
+        route:"",
 
-      src:"https://images.bewakoof.com/uploads/grid/app/CUSTOMISE-thumbnail-1644818150.jpg",
-      catagory:"Customization",
-    },
-    {
-      route:"",
+        src:"https://images.bewakoof.com/uploads/grid/app/CUSTOMISE-thumbnail-1644818150.jpg",
+        catagory:"Customization",
+      },
+      {
+        route:"",
 
-      src:"https://images.bewakoof.com/uploads/grid/app/vote-for-design-1641715844.jpg",
-      catagory:"Vote for Design",
-    },
-]
-}
+        src:"https://images.bewakoof.com/uploads/grid/app/vote-for-design-1641715844.jpg",
+        catagory:"Vote for Design",
+      },
+    ],
+    }
+
+  export const woman={
+    "banner":[
+      {
+      route: '',
+      src: 'https://images.bewakoof.com/uploads/grid/app/clearance-sale-1x1-women-1653027451.jpg',
+      },
+      {
+      route:"",
+      src:"https://images.bewakoof.com/uploads/grid/app/Static-Banner-1-1-Marvel-Youth-Beat-Women-1653541955.jpg",
+      },
+      {
+      route:"",
+      src:"https://images.bewakoof.com/uploads/grid/app/StaticBanner-Homepage-Oversized-new-women-shoot-1653541954.jpg",
+      },
+    ],
+    'Middle_banner':[
+    {
+       route:"",
+       src:"https://images.bewakoof.com/uploads/grid/app/desktop-strip-1-1651232973.jpg",
+     },
+     ],
+
+     'small_middle_banner':[
+      {
+          route:"",
+          src:"https://images.bewakoof.com/uploads/grid/app/WhatsApp-Video-2022-01-29-at-14-06-03-1643446784.gif",
+          catagory:"Design Of The Day"
+        },
+        {
+          route:"",
+          src:"https://images.bewakoof.com/uploads/grid/app/tod-thumbnail-best-seller-1637307127.jpg",
+          catagory:"Bestsellers"
+        },
+        {
+          route:"",
+          src:"https://images.bewakoof.com/uploads/grid/app/CUSTOMISE-thumbnail-1644818150.jpg",
+          catagory:"Customization",
+        },
+        {
+          route:"",
+          src:"https://images.bewakoof.com/uploads/grid/app/vote-for-design-1641715844.jpg",
+          catagory:"Vote for Design",
+        },
+        {
+          route:"",
+  
+          src:"https://images.bewakoof.com/uploads/grid/app/WhatsApp-Video-2022-01-29-at-14-06-03-1643446784.gif",
+          catagory:"Design Of The Day"
+        },
+        {
+          route:"",
+  
+          src:"https://images.bewakoof.com/uploads/grid/app/tod-thumbnail-best-seller-1637307127.jpg",
+          catagory:"Bestsellers"
+        },
+        {
+          route:"",
+  
+          src:"https://images.bewakoof.com/uploads/grid/app/CUSTOMISE-thumbnail-1644818150.jpg",
+          catagory:"Customization",
+        },
+        {
+          route:"",
+  
+          src:"https://images.bewakoof.com/uploads/grid/app/vote-for-design-1641715844.jpg",
+          catagory:"Vote for Design",
+        },
+      ],
+    }
+      export const accessories={
+        "banner":[
+          {
+          route: '',
+          src: 'https://images.bewakoof.com/uploads/grid/app/Static-Banner-1-1-Summer-s-Biggest-Hits-Accessories-1653071620.gif',
+          },
+          {
+          route:"",
+          src:"https://images.bewakoof.com/uploads/grid/app/clearance-sale-1x1-common-1653027450.jpg",
+          },
+          {
+          route:"",
+          src:"https://images.bewakoof.com/uploads/grid/app/Static-Banner-1-1-New-Arrivals-Accessories--1--1652689573.jpg",
+          },
+        ],
+    
+         'small_middle_banner':[
+          {
+              route:"",
+              src:"https://images.bewakoof.com/uploads/grid/app/thumbnails-best-sellers-1653387856.jpg",
+              catagory:"Design Of The Day"
+            },
+            {
+              route:"",
+              src:"https://images.bewakoof.com/uploads/grid/app/tod-thumbnail-new-arrival-Acc-1653048927.jpg",
+              catagory:"Bestsellers"
+            },
+            {
+              route:"",
+              src:"https://images.bewakoof.com/uploads/grid/app/merch-store-thumbnail-1650383334.jpg",
+              catagory:"Customization",
+            },
+            {
+              route:"",
+              src:"https://images.bewakoof.com/uploads/grid/app/thumbnails-mobile-covers-1653388044.jpg",
+              catagory:"Vote for Design",
+            },
+            {
+              route:"",
+      
+              src:"https://images.bewakoof.com/uploads/grid/app/thumbnails-phone-grippers-1653387857.jpg",
+              catagory:"Design Of The Day"
+            },
+            {
+              route:"",
+      
+              src:"https://images.bewakoof.com/uploads/grid/app/thumbnails-sliders-1653387857.jpg",
+              catagory:"Bestsellers"
+            },
+            {
+              route:"",
+      
+              src:"https://images.bewakoof.com/uploads/grid/app/thumbnails-mugs-1653388044.jpg",
+              catagory:"Customization",
+            },
+            {
+              route:"",
+      
+              src:"https://images.bewakoof.com/uploads/grid/app/tod-thumbnail-essentials-1637307130.jpg",
+              catagory:"Vote for Design",
+            },
+          ],
+  }
 
 //
 //
@@ -142,4 +275,3 @@ const data=
 //     src:"https://images.bewakoof.com/uploads/grid/app/Mid-Size-Banner-Plus-Size-Men-1651766784.jpg",
 //   },
 // ]
-export default data;

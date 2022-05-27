@@ -1,19 +1,39 @@
 import './Home.css';
-import data from '../Api';
+import {men, woman,accessories} from '../Api';
 import Menu from '../Navbar/menubar/Menu';
 import Blueprint from '../blueprint/Blueprint';
 import Login from '../Login/Login';
 import Footer from '../Footer/Footer';
 
-function Home() {
+function Home(props) {
+  const obj = {
+    'men': men,
+    'women': woman,
+    'accessories': accessories
+  };
+
+  const data = obj[props.cat || 'men'];
+
   return (
     <div>
     <Menu/>
-    <Blueprint data={data['banner']} height="500px"/>
-    <Blueprint data={data['Middle banner']}/>
-    <div className="smbmargin">
-    <Blueprint data={data['small_middle_banner']} height="130px" imgStyle={styles.block} />
-    </div>
+    {
+      (props.cat == 'accessories')?
+      <div>
+        <Blueprint data={data['banner']} height="500px"/>
+        <div className="smbmargin">
+          <Blueprint data={data['small_middle_banner']} height="130px" imgStyle={styles.block} />
+        </div>
+      </div>
+      :
+      <div>
+        <Blueprint data={data['banner']} height="500px"/>
+        <Blueprint data={data['Middle_banner']}/>
+        <div className="smbmargin">
+          <Blueprint data={data['small_middle_banner']} height="130px" imgStyle={styles.block} />
+        </div>
+      </div>
+    }
     <Footer/>
     </div>
   );

@@ -10,7 +10,10 @@ function App() {
     <div>
        <Navbar />
       <Routes>
-          <Route path="/" element={<Home />}  />
+          <Route path="/" element={<Home/>}  />
+          <Route path="/mensection" element={<Home cat="men" />}  />
+          <Route path="/womensection" element={<Home cat="women"/>}  />
+          <Route path="/accessoriessection" element={<Home cat="accessories"/>}  />
           <Route path="/login" element={<Login />} />
           <Route path="/men/banner/:id" element={<LandingPage />} />
           <Route path="/test" element={<Buyingpage />} />
