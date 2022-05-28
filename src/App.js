@@ -5,6 +5,7 @@ import Navbar from './Navbar/Navbar';
 import LandingPage from './LandingPage';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Buyingpage } from './buying page/Buyingpage';
+import Filter from './filter/Filter';
 function App() {
   return (
     <div>
@@ -17,6 +18,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/men/banner/:id" element={<LandingPage />} />
           <Route path="/test" element={<Buyingpage />} />
+          <Route path="/filterpage" element={<Filter/>}/>
       </Routes>
     </div>
   );
