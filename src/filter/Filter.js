@@ -1,29 +1,64 @@
 import React, { useState } from "react";
+import "./filter.css"
 const Filter=()=>{
-    const headc=[{type:0,filter:"gender",name:"women",name:"men",name:"unisex"},{type:1,filter:"catagory"},{type:2,filter:"sizes"},{type:3,filter:"color"},{type:4,filter:"Brand"},{type:5,filter:"neck"}]
-
+    const headc=['gender' ,'catagory' ,'sizes' ,'color' ,'Brand' ,'neck']
     const subHeadc=[["women","men","unisex"],["t-shirt","vest","top"],["S","M","L"],["red","white","blue","black"],["bewakoof","cosmos","gonuts"],["round neck", "v-neck"]] 
 
-    /*const subHeadc=[{name:"women",name:"men",name:"unisex"},{name:"t-shirt",name:"vest",name:"top"},{name:"S",name:"M",name:"L"},{name:"red",name:"white",name:"blue",name:"black"},{name:"bewakoof",name:"cosmos",name:"gonuts"},{name:"round neck",name: "v-neck"}] */
-
-
-    const[toggle,SetTaggle]=useState();
-    const[on,setOn]=useState(false)
+    /*
+    const[toggle,setToggle]=useState(-1);
         return(
+            
         <div>
+            <p>Filter</p>
             {
                 
                 headc.map((obj,i)=>{
                     return(
-                    <div onClick={()=>SetTaggle(obj.type)}>
-                    {obj.filter}
-                    {subHeadc[toggle]}
+                    <div onClick={()=>(toggle === i)? setToggle(-1) :setToggle(i)}>
+                    {obj}
+                    {(toggle === i) ?subHeadc[toggle]:""}
                     </div>
                     )
                 })
             }
         </div>
     )
+    */
+
+    
+        const[toggle,setToggle]=useState([]);
+
+        function insert(obj) {
+            const arr = [...toggle]
+            arr.push(obj)
+            setToggle(arr)
+        }
+        function remove(index) {
+            const arr = [...toggle]
+            arr.splice(index, 1)
+            setToggle(arr)
+        }
+
+        return(
+            
+        <div>
+            <p>Filter</p>
+            {
+                
+                headc.map((obj,i)=>{
+                    const index = toggle.indexOf(obj)
+                    console.log(index)
+                    return(
+                    <div onClick={()=>(index == -1)? insert(obj) : remove(index)}>
+                    {obj}
+                    {(index > -1) ?subHeadc[i]:""}
+                    </div>
+                    )
+                })
+            }
+        </div>
+    )
+
 }
 
 export default Filter;
